@@ -1,0 +1,39 @@
+.Item {
+  width: 200px;
+  margin: 25px 0;
+  border-radius: 13px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #353846;
+}
+
+.State {
+  border-bottom: 1px solid grey;
+  position: relative;
+  display: flex;
+
+  align-items: center;
+}
+
+.StateText {
+  font-size: 23px;
+}
+
+.todoText {
+  text-align: left;
+  margin-top: 5px;
+  min-height: 70px;
+  height: 80%;
+  word-wrap: break-word;
+}
+
+.deleteButton {
+  background: none;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+}

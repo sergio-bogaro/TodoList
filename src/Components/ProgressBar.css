@@ -1,0 +1,26 @@
+.containerStyles {
+  height: 20;
+  width: 70%;
+  background-color: #e0e0de;
+  border-radius: 4px;
+  margin: 15px auto;
+}
+
+.fillerStyles {
+  height: 100%;
+  background-color: #147b49;
+  border-radius: inherit;
+  text-align: center;
+}
+
+.labelStyles {
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.separator {
+  border-bottom: 1px solid #ede7d9;
+  width: 85%;
+  margin: auto;
+}
